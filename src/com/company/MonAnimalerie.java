@@ -5,7 +5,7 @@ import java.util.Scanner;
 public class MonAnimalerie {
 
     private boolean finDuProgramme;
-    private Animalerie animalerie;
+    private final Animalerie animalerie;
     private int menuCourant;
     private boolean nsfw = false;
 
